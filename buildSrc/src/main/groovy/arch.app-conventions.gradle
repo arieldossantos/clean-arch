@@ -1,0 +1,6 @@
+
+plugins {
+    id 'arch.app-conventions'
+    id 'application'
+    id 'arch.commons-conventions'
+}

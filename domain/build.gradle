@@ -1,0 +1,8 @@
+
+plugins {
+    id 'arch.domain-conventions'
+}
+
+dependencies {
+    implementation project(':infra')
+}

@@ -1,0 +1,11 @@
+
+plugins {
+    id 'arch.domain-conventions'
+    id 'java-library'
+    id 'arch.commons-conventions'
+}
+
+
+dependencies {
+
+}

@@ -1,0 +1,10 @@
+
+plugins {
+    id 'arch.infra-conventions'
+    id 'java-library'
+    id 'arch.commons-conventions'
+}
+
+dependencies {
+    implementation group: 'com.h2database', name: 'h2', version: '1.4.200'
+}

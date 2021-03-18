@@ -1,0 +1,13 @@
+
+plugins {
+    id 'arch.app-conventions'
+}
+
+dependencies {
+    implementation project(':domain')
+    implementation 'org.junit.jupiter:junit-jupiter:5.4.2'
+}
+
+application {
+    mainClass = 'io.github.arieldossantos.arch.Application'
+}
